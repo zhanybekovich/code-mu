@@ -1,17 +1,20 @@
 "use strict";
 
-// addition
-let a = 1 + 2;
-alert(a);
+let a = 10;
+let b = 2;
+alert(a + b);
 
-// subtraction
-let b = 3 - 1;
-alert(b);
+let c = 10;
+let d = 5;
+let result = c + d;
+alert(result);
 
-// multiplication
-let c = 3 * 2;
-alert(c);
+let e = 1;
+let f = 2;
+let g = 3;
+alert(e + f + g);
 
-// division
-let d = 4 / 2;
-alert(d);
+let h = 10;
+let i = 5;
+let j = h - i;
+alert(j);
