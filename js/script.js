@@ -1,20 +1,13 @@
 "use strict";
 
-let a = 10;
-let b = 2;
-alert(a + b);
+let a = 5 + 5 * 3;
+alert(a);
 
-let c = 10;
-let d = 5;
-let result = c + d;
-alert(result);
+a = 5 + 5 * 3 + 3;
+alert(a);
 
-let e = 1;
-let f = 2;
-let g = 3;
-alert(e + f + g);
+a = 8 / 2 + 2;
+alert(a);
 
-let h = 10;
-let i = 5;
-let j = h - i;
-alert(j);
+a = 8 + 2 / 2;
+alert(a);
