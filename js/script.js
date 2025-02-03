@@ -1,5 +1,13 @@
 "use strict";
 
-let a = 2;
+let str = "abc";
+alert(str); // выведет 'abc'
 
-alert(a ** 10);
+let str2 = `abc`;
+alert(str2);
+
+let firstName = "John";
+let lastName = "Doe";
+
+alert(firstName);
+alert(lastName);
