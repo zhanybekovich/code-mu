@@ -1,5 +1,8 @@
 "use strict";
 
-// null
-let a = null;
+// boolean
+let a = true;
 alert(a);
+
+let b = false;
+alert(b);
