@@ -1,8 +1,9 @@
 "use strict";
 
-// boolean
-let a = true;
-alert(a);
+// NaN
+alert("abc" * 3);
+alert(NaN + 1);
 
-let b = false;
-alert(b);
+let a = "a";
+let b = "b";
+alert(a * b);
