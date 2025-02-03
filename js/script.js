@@ -1,15 +1,19 @@
 "use strict";
 
-// Console
-console.log(123);
+// Log different data types
 
-let number = 100;
-console.log(number);
+// number
+console.log(5);
+console.log(34.5);
 
-let number2 = 200;
-console.log(number, number2);
+// undefined and null
+console.log(undefined);
+console.log(null);
 
-let myVariable = "Hello";
-console.log(myVariable);
+// booleans
+console.log(true);
+console.log(false);
 
-console.log(number, number2, myVariable);
+// string
+console.log("Hello");
+console.log("10");
