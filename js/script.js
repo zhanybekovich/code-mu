@@ -1,13 +1,12 @@
 "use strict";
 
-let str = "abc";
-alert(str); // выведет 'abc'
+// concatenation
+let str = "abc" + "def";
+alert(str);
 
-let str2 = `abc`;
-alert(str2);
+let a = "Java";
+let b = "Script";
+let c = a + b;
+alert(c);
 
-let firstName = "John";
-let lastName = "Doe";
-
-alert(firstName);
-alert(lastName);
+alert("Hello," + " " + "world!");
