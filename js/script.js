@@ -1,9 +1,8 @@
 "use strict";
 
-// length
-let str = "abcde";
-alert(str.length);
+// template string
+let str1 = "xxx";
+let str2 = "yyy";
+let txt = `aaa ${str1} bbb ${str2} ccc`;
 
-alert("hello".length);
-
-alert("Very long string length".length);
+alert(txt);
