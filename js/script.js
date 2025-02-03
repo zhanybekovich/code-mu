@@ -1,12 +1,9 @@
 "use strict";
 
-// concatenation
-let str = "abc" + "def";
-alert(str);
+// length
+let str = "abcde";
+alert(str.length);
 
-let a = "Java";
-let b = "Script";
-let c = a + b;
-alert(c);
+alert("hello".length);
 
-alert("Hello," + " " + "world!");
+alert("Very long string length".length);
