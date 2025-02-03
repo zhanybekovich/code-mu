@@ -1,9 +1,5 @@
 "use strict";
 
-// NaN
-alert("abc" * 3);
-alert(NaN + 1);
-
-let a = "a";
-let b = "b";
-alert(a * b);
+// Infinity
+alert(1 / 0);
+alert(-10 / 0);
