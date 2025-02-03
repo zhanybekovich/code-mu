@@ -1,10 +1,8 @@
 "use strict";
 
-// multiline string
-let str = `
-a
-b
-c
-`;
+// undefined
+let a;
+alert(a);
 
-alert(str);
+let b;
+alert(b);
