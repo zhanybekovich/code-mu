@@ -1,8 +1,5 @@
 "use strict";
 
-// undefined
-let a;
+// null
+let a = null;
 alert(a);
-
-let b;
-alert(b);
