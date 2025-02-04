@@ -1,19 +1,13 @@
 "use strict";
 
-// Log different data types
+// constants
 
-// number
-console.log(5);
-console.log(34.5);
+const pi = 3.14;
 
-// undefined and null
-console.log(undefined);
-console.log(null);
+console.log(pi);
 
-// booleans
-console.log(true);
-console.log(false);
+// calculate length of circle
+const radius = 50;
+const length = 2 * pi * radius;
 
-// string
-console.log("Hello");
-console.log("10");
+console.log(length);
