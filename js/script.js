@@ -1,9 +1,9 @@
 "use strict";
 
-// converting to string
-let str = String(123);
-console.log(str);
+// converting string to boolean
+console.log(String(true));
+console.log(String(false));
 
-let num1 = 1;
-let num2 = 2;
-console.log(String(num1) + String(num2));
+console.log("a" + true);
+console.log(Number(true));
+console.log(Number(false));
