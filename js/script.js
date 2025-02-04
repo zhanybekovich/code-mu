@@ -1,17 +1,15 @@
 "use strict";
 
-// string indexes
+// assignment operations
+let num = 1;
+num += 3;
+console.log(num);
 
-let str = "abcdef";
+num -= 1;
+console.log(num);
 
-console.log(str[0]);
-console.log(str[1]);
+num *= 2;
+console.log(num);
 
-let num = 2;
-console.log(str[num]);
-
-let lastIndex = str.length - 1;
-console.log(str[lastIndex]);
-
-// task: get the last char of the string
-console.log(str[str.length - 1]);
+num /= 2;
+console.log(num);
