@@ -1,20 +1,17 @@
 "use strict";
 
-// converting to boolean
-//falsy
-console.log(Boolean(0));
-console.log(Boolean(-0));
-console.log(Boolean(+0));
-console.log(Boolean(null));
-console.log(Boolean(false));
-console.log(Boolean(NaN));
-console.log(Boolean(undefined));
-console.log(Boolean(""));
+// string indexes
 
-//truthy
-console.log(Boolean(123));
-console.log(Boolean(-12));
-console.log(Boolean("a"));
-console.log(Boolean("0"));
-console.log(Boolean(" "));
-console.log(Boolean("null"));
+let str = "abcdef";
+
+console.log(str[0]);
+console.log(str[1]);
+
+let num = 2;
+console.log(str[num]);
+
+let lastIndex = str.length - 1;
+console.log(str[lastIndex]);
+
+// task: get the last char of the string
+console.log(str[str.length - 1]);
