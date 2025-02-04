@@ -1,21 +1,9 @@
 "use strict";
 
-// increment postfix
-let num = 0;
-console.log(num++);
-console.log(num);
+// inaccurate calculations
+let a = 0.1 + 0.2;
+console.log(a);
 
-// increment prefix
-let num2 = 0;
-console.log(++num2);
-console.log(num2);
-
-// decrement postfix
-let num3 = 5;
-console.log(num3--);
-console.log(num3);
-
-// decrement prefix
-let num4 = 50;
-console.log(--num4);
-console.log(num4);
+// toFixed
+let b = 0.1 + 0.2;
+console.log(b.toFixed(2));
