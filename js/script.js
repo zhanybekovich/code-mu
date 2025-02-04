@@ -1,9 +1,10 @@
 "use strict";
 
-// inaccurate calculations
-let a = 0.1 + 0.2;
-console.log(a);
+// prompt
+let userName = prompt("What's your name?");
+console.log(userName);
 
-// toFixed
-let b = 0.1 + 0.2;
-console.log(b.toFixed(2));
+// prompt returns data as string
+let a = prompt("Enter 1st number");
+let b = prompt("Enter 2nd number");
+console.log(`The sum of ${a} + ${b} = ${a + b}`);
