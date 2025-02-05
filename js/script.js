@@ -1,12 +1,12 @@
 "use strict";
 
-let arr = [];
+// objects
 
-// push
-arr.push("a");
-arr.push("b");
-console.log(arr);
+// empty object
+let obj = {};
 
-// delete
-delete arr[0];
-console.log(arr);
+// object with keys and values
+let pet = {
+  name: "Bob",
+  age: 25,
+};
