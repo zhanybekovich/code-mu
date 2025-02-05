@@ -1,46 +1,41 @@
 "use strict";
 
-// tasks: fixing errors
+// Practice on operations
 
 // 1
-let num1 = 1;
-let num2 = 2;
-console.log(`The sum is: ${num1 + num2}`);
+let secondsInADay = 24 * 60 * 60;
+console.log(secondsInADay);
 
 // 2
-let a = 1;
-let b = 2;
-console.log(a + b);
+let days = 30;
+let secondsIn30Days = 30 * secondsInADay;
+console.log(secondsIn30Days);
 
 // 3
-let num = "123";
-let sum = Number(num[0]) + Number(num[1]) + Number(num[2]);
-console.log(sum);
+let year = 365;
+let secondsInAYear = year * secondsInADay;
+console.log(secondsInAYear);
 
 // 4
-num = String(123);
-console.log(num[0]);
+let hoursInADay = 24;
+let minutesInADay = hoursInADay * 60;
+console.log(minutesInADay);
 
 // 5
-a = 0;
-console.log(++a);
+let minutesInAYear = 365 * minutesInADay;
+console.log(minutesInAYear);
 
 // 6
-num = 123;
-console.log(String(num).length);
+let megaBytes = 2;
+let bytesInMegaByte = megaBytes * 1024 * 1024;
+console.log(bytesInMegaByte);
 
 // 7
-a = 24 * 60 * 60;
-console.log(a);
+let gigaBytes = 2;
+let bytesInGigaBytes = gigaBytes * 1024 * 1024 * 1024;
+console.log(bytesInGigaBytes);
 
 // 8
-num = 123;
-let str = String(num);
-console.log(str[str.length - 1]);
-
-// 9
-a = "123";
-b = "456";
-let s = Number(a) + Number(b);
-
-console.log(s);
+let terraBytes = 2;
+let bytesInTerraBytes = terraBytes * 1024 * 1024 * 1024 * 1024;
+console.log(bytesInTerraBytes);
