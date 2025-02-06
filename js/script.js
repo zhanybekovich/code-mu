@@ -1,8 +1,10 @@
 "use strict";
 
-// delete
-let obj = { a: 1, b: 2, c: 3 };
+// object type
 
-delete obj.b;
+// arrays and object have same type
+console.log(typeof {});
+console.log(typeof []);
 
-console.log(obj);
+// checking if an object is array
+console.log(Array.isArray([]));
