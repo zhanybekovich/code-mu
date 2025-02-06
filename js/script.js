@@ -1,10 +1,70 @@
 "use strict";
 
-// Reference
+// if...else...
+let test = 23;
 
-let obj1 = { a: 1, b: 2, c: 3 };
+if (test > 0) {
+  console.log("+");
+} else {
+  console.log("-");
+}
 
-let obj2 = obj1;
+if (test < 0) {
+  console.log("-");
+} else {
+  console.log("+");
+}
 
-obj2.a = "!";
-console.log(obj1);
+if (test >= 10) {
+  console.log("YES");
+} else {
+  console.log("NO");
+}
+
+if (test <= 10) {
+  console.log("YES");
+} else {
+  console.log("NO");
+}
+
+// equality
+test = 0;
+if (test == 0) {
+  console.log("ZERO");
+} else {
+  console.log("NOT ZERO");
+}
+
+test = "0";
+if (test == 0) {
+  console.log("ZERO");
+} else {
+  console.log("NOT ZERO");
+}
+
+test == 0;
+if (test == 0) {
+  console.log("ZERO");
+} else {
+  console.log("NOT ZERO");
+}
+
+test = "0";
+if (test === 0) {
+  console.log("ZERO");
+} else {
+  console.log("NOT ZERO");
+}
+
+test = 1;
+if (test != 1) {
+  console.log("Yes");
+} else {
+  console.log("No");
+}
+
+if (test !== 1) {
+  console.log("Yes");
+} else {
+  console.log("No");
+}
