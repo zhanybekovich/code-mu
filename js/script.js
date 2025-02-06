@@ -1,18 +1,6 @@
 "use strict";
 
-// switch
-let lang = "ru";
-
-switch (lang) {
-  case "ru":
-    console.log("Russian");
-    break;
-  case "en":
-    console.log("English");
-    break;
-  case "de":
-    console.log("German");
-    break;
-  default:
-    console.log("Unsupported language");
-}
+// ternary operator
+let age = 17;
+let adult = age >= 18 ? true : false;
+console.log(adult);
