@@ -1,6 +1,8 @@
 "use strict";
 
-// 'in' operator
+// delete
 let obj = { a: 1, b: 2, c: 3 };
-console.log("b" in obj);
-console.log("x" in obj);
+
+delete obj.b;
+
+console.log(obj);
