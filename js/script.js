@@ -1,6 +1,8 @@
 "use strict";
 
-// number of keys in the object
+// calculated key
 let obj = { a: 1, b: 2, c: 3 };
 
-console.log(Object.keys(obj).length);
+let key = "c";
+
+console.log(obj[key]);
