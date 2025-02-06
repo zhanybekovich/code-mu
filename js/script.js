@@ -1,10 +1,10 @@
 "use strict";
 
-// object type
+// Reference
 
-// arrays and object have same type
-console.log(typeof {});
-console.log(typeof []);
+let obj1 = { a: 1, b: 2, c: 3 };
 
-// checking if an object is array
-console.log(Array.isArray([]));
+let obj2 = obj1;
+
+obj2.a = "!";
+console.log(obj1);
