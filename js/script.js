@@ -1,70 +1,34 @@
 "use strict";
 
-// if...else...
-let test = 23;
+// logical operators
+let num = 3;
 
-if (test > 0) {
-  console.log("+");
-} else {
-  console.log("-");
-}
-
-if (test < 0) {
-  console.log("-");
-} else {
-  console.log("+");
-}
-
-if (test >= 10) {
-  console.log("YES");
-} else {
-  console.log("NO");
-}
-
-if (test <= 10) {
-  console.log("YES");
-} else {
-  console.log("NO");
-}
-
-// equality
-test = 0;
-if (test == 0) {
-  console.log("ZERO");
-} else {
-  console.log("NOT ZERO");
-}
-
-test = "0";
-if (test == 0) {
-  console.log("ZERO");
-} else {
-  console.log("NOT ZERO");
-}
-
-test == 0;
-if (test == 0) {
-  console.log("ZERO");
-} else {
-  console.log("NOT ZERO");
-}
-
-test = "0";
-if (test === 0) {
-  console.log("ZERO");
-} else {
-  console.log("NOT ZERO");
-}
-
-test = 1;
-if (test != 1) {
+// AND
+if (num > 0 && num < 10) {
   console.log("Yes");
 } else {
   console.log("No");
 }
 
-if (test !== 1) {
-  console.log("Yes");
+// OR
+let num1 = 10;
+let num2 = -5;
+
+if (num1 > 0 || num2 > 0) {
+  console.log("+++");
 } else {
-  console.log("No");
+  console.log("---");
 }
+
+// && has higher priority than ||
+num = 3;
+
+if ((num > 0 && num < 5) || (num > 10 && num < 20)) {
+  console.log("+++");
+} else {
+  console.log("---");
+}
+
+// ! -> NOT
+let isAdult = true;
+console.log(!isAdult);
