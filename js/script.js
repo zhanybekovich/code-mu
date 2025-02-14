@@ -1,20 +1,33 @@
 "use strict";
 
-// Дан объект: Переберите этот объект циклом и возведите каждый элемент этого объекта в квадрат.
-// let obj = { x: 1, y: 2, z: 3 };
+// Дан массив: Проверьте, что в этом массиве есть элемент 'c'. Если есть - выведите '+++', а если нет - выведите '---'.
+// let arr = ["a", "b", "c", "d", "e"];
 
-// for (let key in obj) {
-//   obj[key] = obj[key] ** 2;
+// let flag = false;
+
+// for (let el of arr) {
+//   if (el === "c") {
+//     flag = true;
+//     break;
+//   }
 // }
 
-// console.log(obj);
+// flag ? console.log("+++") : console.log("---");
 
-// Дан объект: Переберите этот объект циклом и увеличьте каждый элемент этого объекта на единицу.
+// Напишите код, который будет проверять число на то, простое оно или нет. Простое число делится только на единицу и на само себя, и не делится на другие числа.
 
-let obj = { x: 1, y: 2, z: 3 };
+let number = 45;
+let isSimple = true;
 
-for (let key in obj) {
-  obj[key] = obj[key] + 1;
+if (number <= 1) {
+  isSimple = false; // Числа 1 и меньше не являются простыми
+} else {
+  for (let i = 2; i <= Math.sqrt(number); i++) {
+    if (number % i === 0) {
+      isSimple = false;
+      break;
+    }
+  }
 }
 
-console.log(obj);
+isSimple ? console.log("+++") : console.log("---");
