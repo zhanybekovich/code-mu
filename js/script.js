@@ -1,29 +1,28 @@
 "use strict";
 
-// Используя цикл и метод push заполните массив числами от 1 до 10.
-const numbers = [];
-for (let i = 1; i <= 100; i++) {
-  numbers.push(i);
+// Дан массив с числами. Переберите этот массив циклом и возведите каждый элемент этого массива в квадрат.
+// const arr = [1, 2, 3, 4, 5];
+
+// for (let i = 0; i < arr.length; i++) {
+//   arr[i] = arr[i] ** 2;
+// }
+
+// console.log(arr);
+
+// Дан массив с числами. Переберите этот массив циклом и отнимите от каждого элемента единицу.
+// const arr = [1, 2, 3, 4, 5];
+
+// for (let i = 0; i < arr.length; i++) {
+//   arr[i] = arr[i] - 1;
+// }
+
+// console.log(arr);
+
+// Дан массив с числами. Переберите этот массив циклом и прибавьте к каждому элементу 10.
+const arr = [1, 2, 3, 4, 5];
+
+for (let i = 0; i < arr.length; i++) {
+  arr[i] = arr[i] + 10;
 }
 
-console.log(numbers);
-
-// Используя цикл и метод push заполните массив 10-ю буквами 'x'.
-const x = [];
-for (let i = 1; i <= 10; i++) {
-  x.push("x");
-}
-
-console.log(x);
-
-// Дан массив с числами. Переберите его циклом и запишите в новый массив только положительные из чисел.
-const mixedNumbers = [10, 9, -2, 20, 65, -96];
-const positiveNumbers = [];
-
-for (let i = 0; i < mixedNumbers.length; i++) {
-  if (mixedNumbers[i] > 0) {
-    positiveNumbers.push(mixedNumbers[i]);
-  }
-}
-
-console.log(positiveNumbers);
+console.log(arr);
